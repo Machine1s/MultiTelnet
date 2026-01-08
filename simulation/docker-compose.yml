@@ -1,0 +1,362 @@
+version: '3'
+services:
+  linux-node-01:
+    build: .
+    container_name: linux-node-01
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_01
+    ports:
+      - "2201:22"
+      - "2301:23"
+    restart: always
+  linux-node-02:
+    build: .
+    container_name: linux-node-02
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_02
+    ports:
+      - "2202:22"
+      - "2302:23"
+    restart: always
+  linux-node-03:
+    build: .
+    container_name: linux-node-03
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_03
+    ports:
+      - "2203:22"
+      - "2303:23"
+    restart: always
+  linux-node-04:
+    build: .
+    container_name: linux-node-04
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_04
+    ports:
+      - "2204:22"
+      - "2304:23"
+    restart: always
+  linux-node-05:
+    build: .
+    container_name: linux-node-05
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_05
+    ports:
+      - "2205:22"
+      - "2305:23"
+    restart: always
+  linux-node-06:
+    build: .
+    container_name: linux-node-06
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_06
+    ports:
+      - "2206:22"
+      - "2306:23"
+    restart: always
+  linux-node-07:
+    build: .
+    container_name: linux-node-07
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_07
+    ports:
+      - "2207:22"
+      - "2307:23"
+    restart: always
+  linux-node-08:
+    build: .
+    container_name: linux-node-08
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_08
+    ports:
+      - "2208:22"
+      - "2308:23"
+    restart: always
+  linux-node-09:
+    build: .
+    container_name: linux-node-09
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_09
+    ports:
+      - "2209:22"
+      - "2309:23"
+    restart: always
+  linux-node-10:
+    build: .
+    container_name: linux-node-10
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_10
+    ports:
+      - "2210:22"
+      - "2310:23"
+    restart: always
+  linux-node-11:
+    build: .
+    container_name: linux-node-11
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_11
+    ports:
+      - "2211:22"
+      - "2311:23"
+    restart: always
+  linux-node-12:
+    build: .
+    container_name: linux-node-12
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_12
+    ports:
+      - "2212:22"
+      - "2312:23"
+    restart: always
+  linux-node-13:
+    build: .
+    container_name: linux-node-13
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_13
+    ports:
+      - "2213:22"
+      - "2313:23"
+    restart: always
+  linux-node-14:
+    build: .
+    container_name: linux-node-14
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_14
+    ports:
+      - "2214:22"
+      - "2314:23"
+    restart: always
+  linux-node-15:
+    build: .
+    container_name: linux-node-15
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_15
+    ports:
+      - "2215:22"
+      - "2315:23"
+    restart: always
+  linux-node-16:
+    build: .
+    container_name: linux-node-16
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_16
+    ports:
+      - "2216:22"
+      - "2316:23"
+    restart: always
+  linux-node-17:
+    build: .
+    container_name: linux-node-17
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_17
+    ports:
+      - "2217:22"
+      - "2317:23"
+    restart: always
+  linux-node-18:
+    build: .
+    container_name: linux-node-18
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_18
+    ports:
+      - "2218:22"
+      - "2318:23"
+    restart: always
+  linux-node-19:
+    build: .
+    container_name: linux-node-19
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_19
+    ports:
+      - "2219:22"
+      - "2319:23"
+    restart: always
+  linux-node-20:
+    build: .
+    container_name: linux-node-20
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_20
+    ports:
+      - "2220:22"
+      - "2320:23"
+    restart: always
+  linux-node-21:
+    build: .
+    container_name: linux-node-21
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_21
+    ports:
+      - "2221:22"
+      - "2321:23"
+    restart: always
+  linux-node-22:
+    build: .
+    container_name: linux-node-22
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_22
+    ports:
+      - "2222:22"
+      - "2322:23"
+    restart: always
+  linux-node-23:
+    build: .
+    container_name: linux-node-23
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_23
+    ports:
+      - "2223:22"
+      - "2323:23"
+    restart: always
+  linux-node-24:
+    build: .
+    container_name: linux-node-24
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_24
+    ports:
+      - "2224:22"
+      - "2324:23"
+    restart: always
+  linux-node-25:
+    build: .
+    container_name: linux-node-25
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_25
+    ports:
+      - "2225:22"
+      - "2325:23"
+    restart: always
+  linux-node-26:
+    build: .
+    container_name: linux-node-26
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_26
+    ports:
+      - "2226:22"
+      - "2326:23"
+    restart: always
+  linux-node-27:
+    build: .
+    container_name: linux-node-27
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_27
+    ports:
+      - "2227:22"
+      - "2327:23"
+    restart: always
+  linux-node-28:
+    build: .
+    container_name: linux-node-28
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_28
+    ports:
+      - "2228:22"
+      - "2328:23"
+    restart: always
+  linux-node-29:
+    build: .
+    container_name: linux-node-29
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_29
+    ports:
+      - "2229:22"
+      - "2329:23"
+    restart: always
+  linux-node-30:
+    build: .
+    container_name: linux-node-30
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_30
+    ports:
+      - "2230:22"
+      - "2330:23"
+    restart: always
+  linux-node-31:
+    build: .
+    container_name: linux-node-31
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_31
+    ports:
+      - "2231:22"
+      - "2331:23"
+    restart: always
+  linux-node-32:
+    build: .
+    container_name: linux-node-32
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_32
+    ports:
+      - "2232:22"
+      - "2332:23"
+    restart: always
+  linux-node-33:
+    build: .
+    container_name: linux-node-33
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_33
+    ports:
+      - "2233:22"
+      - "2333:23"
+    restart: always
+  linux-node-34:
+    build: .
+    container_name: linux-node-34
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_34
+    ports:
+      - "2234:22"
+      - "2334:23"
+    restart: always
+  linux-node-35:
+    build: .
+    container_name: linux-node-35
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_35
+    ports:
+      - "2235:22"
+      - "2335:23"
+    restart: always
+  linux-node-36:
+    build: .
+    container_name: linux-node-36
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_36
+    ports:
+      - "2236:22"
+      - "2336:23"
+    restart: always
+  linux-node-37:
+    build: .
+    container_name: linux-node-37
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_37
+    ports:
+      - "2237:22"
+      - "2337:23"
+    restart: always
+  linux-node-38:
+    build: .
+    container_name: linux-node-38
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_38
+    ports:
+      - "2238:22"
+      - "2338:23"
+    restart: always
+  linux-node-39:
+    build: .
+    container_name: linux-node-39
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_39
+    ports:
+      - "2239:22"
+      - "2339:23"
+    restart: always
+  linux-node-40:
+    build: .
+    container_name: linux-node-40
+    environment:
+      - HOSTNAME_CUSTOM=ZS_S6_SITE_40
+    ports:
+      - "2240:22"
+      - "2340:23"
+    restart: always

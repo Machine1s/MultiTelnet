@@ -1,0 +1,41 @@
+inventory:
+  - name: ssh_group
+    protocol: ssh
+    username: root
+    password: admin123
+    hosts:
+      - ip: 127.0.0.1
+        port: 2201
+        alias: Node-01-SSH
+      - ip: 127.0.0.1
+        port: 2202
+        alias: Node-02-SSH
+      - ip: 127.0.0.1
+        port: 2203
+        alias: Node-03-SSH
+      - ip: 127.0.0.1
+        port: 2204
+        alias: Node-04-SSH
+      - ip: 127.0.0.1
+        port: 2205
+        alias: Node-05-SSH
+  - name: telnet_group
+    protocol: telnet
+    username: root
+    password: admin123
+    hosts:
+      - ip: 127.0.0.1
+        port: 2306
+        alias: Node-06-Telnet
+      - ip: 127.0.0.1
+        port: 2307
+        alias: Node-07-Telnet
+      - ip: 127.0.0.1
+        port: 2308
+        alias: Node-08-Telnet
+      - ip: 127.0.0.1
+        port: 2309
+        alias: Node-09-Telnet
+      - ip: 127.0.0.1
+        port: 2310
+        alias: Node-10-Telnet
